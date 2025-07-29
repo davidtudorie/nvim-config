@@ -15,4 +15,3 @@ vim.opt.rtp:prepend(lazypath)
 -- Load lazy.nvim configuration
 require("vim-options")
 require("lazy").setup("plugins")
-require("java-newproj")
